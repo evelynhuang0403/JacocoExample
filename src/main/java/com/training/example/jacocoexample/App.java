@@ -20,6 +20,8 @@ public class App {
     }
     
     public static String getGreeting(int hour) {
+        // a fake line change to work on azure devops project user story for supporting user comments
+        
         if (hour >= 5 && hour < 12) {
             return "Good morning!";
         } else if (hour >= 12 && hour < 17) {
